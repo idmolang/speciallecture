@@ -1,0 +1,233 @@
+.header {
+    background: url(background_img2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .title {
+    text-align: center;
+}
+
+.header .title img {
+    width: 500px;
+}
+
+.header .title h1 {
+    font-size: 40px;
+    color: black;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+}
+
+.header .title p {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.header .title button {
+    background: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 14px;
+    transition: .5s ease;
+}
+
+.header .title button:hover {
+    transition: .5s ease;
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.intro .card {
+    flex: 1;
+    text-align: center;
+    margin: 150px 40px;
+}
+
+.intro .card i {
+    font-size: 100px;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+.intro .card h1 {
+    letter-spacing: 0.4em;
+}
+
+.intro .card p {
+    word-wrap: break-word;
+    word-break: keep-all;
+    font-size: 13px;
+}
+
+.service {
+    background: #ddd
+}
+
+.service .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.service .img {
+    height: 300px;
+}
+
+.service .img img {
+    height: 100%;
+    width: auto;
+}
+
+.service .text {
+    text-align: justify;
+    color: #444;
+    padding-left: 100px;
+}
+
+.service .text p {
+    word-wrap: break-word;
+    word-break: keep-all;
+    font-size: 15px;
+}
+
+.service2 {
+    background: whitesmoke;
+}
+
+.service2 .container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.service2 .text {
+    text-align: justify;
+    color: #444;
+    padding-right: 100px;
+}
+
+.service2 .text p {
+    word-wrap: break-word;
+    word-break: keep-all;
+    font-size: 15px;
+}
+
+.service2 .img {
+    height: 300px;
+}
+
+.service2 .img img {
+    height: 100%;
+    width: auto;
+}
+
+footer {
+    color: white;
+    background: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer .sns_container {
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+footer .sns_container .left {
+    flex: 1;
+}
+
+footer .sns_container .left h1 {
+    margin: 0;
+}
+
+footer .sns_container .left p {
+    margin: 0;
+    font-size: 10px;
+}
+
+footer .sns_container .left .sns {
+    margin-top: 30px;
+}
+
+footer .sns_container .left .sns i {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+footer .sns_container .right {
+    flex: 3;
+    padding-left: 50px;
+}
+
+footer .sns_container .right .list {
+    flex: 1;
+    margin-left: 20px;
+}
+
+footer .sns_container .right .list h2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+footer .sns_container .right .left ui {
+    list-style: none;
+    padding: 0;
+}
+
+footer .sns_container .right .list ul li {
+    padding: 5px 5px;
+}
+
+footer .sns_container .right .list ul li:hover {
+    background: #222;
+}
+
+footer .copy_right {
+    text-align: center;
+}
+
+footer .copy_right p {
+    font-size: 10px;
+    margin: 0;
+}
+
+.icon-wrap>img {
+    width: 100px;
+    height: 100px;
+}
+
+.school {
+    text-decoration: none;
+}
+
+.school:visited {
+    color: white;
+}
